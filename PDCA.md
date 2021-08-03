@@ -8,10 +8,10 @@
 
 
 ####Function name: calculateSubtotal
-####P:
-####D:  
-####C:
-####A:
+####P: 5mins 
+####D:  5 mins and 30 secs
+####C:  I made it as simple as it gets.
+####A: I overextend because I tend to find a most cleaner code for this function so I need  to be familiar with this functions so  that I can also use it to other methods.
 
 ####Function name: calculateTotalPrice
 ####P:
