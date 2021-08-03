@@ -22,4 +22,18 @@ public class PosMachine {
         }
         return itemsWithSubtotal;
     }
+
+    public Receipt caculateTotalPrice(List<Item> items) {
+        Receipt receipt = new Receipt();
+        receipt.setItemDetail(items);
+
+        int total = 0;
+        for (Item item: items) {
+            total += item.getSubtotal();
+        }
+
+        receipt.setTotalPrice(total);
+
+        return receipt;
+    }
 }
